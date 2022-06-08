@@ -1,8 +1,8 @@
 # Big O Answers
 
 ## Snippet 1 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: Loops over the array once
 ```python
 def largest(array, value):
   for item in array:
@@ -13,8 +13,8 @@ def largest(array, value):
 
 
 ## Snippet 2 -
-### Big O:
-### Explanation:
+### Big O: O(n)
+### Explanation: Loops over each array once
 
 ```python
 def info_dump(customers):
@@ -30,8 +30,8 @@ def info_dump(customers):
 ```
 
 ## Snippet 3 -
-### Big O:
-### Explanation:
+### Big O: O(1)
+### Explanation: Looks at one specific index
 
 ```python
 def first_element_is_red(array):
@@ -39,8 +39,8 @@ def first_element_is_red(array):
 ```
 
 ## Snippet 4 -
-### Big O:
-### Explanation:
+### Big O: O(n^2)
+### Explanation: Loops over two arrays, and each index
 
 ```python
 def duplicates(array):
@@ -54,8 +54,8 @@ def duplicates(array):
 ``` 
 
 ## Snippet 5 -
-### Big O:
-### Explanation:
+### Big O: 0(n)
+### Explanation: loops over two arrays of fixed length
 
 ```python
 words = ['chocolate', 'coconut', 'rainbow']
@@ -68,8 +68,8 @@ for word in words:
 ```
 
 ## Snippet 6 -
-### Big O:
-### Explanation:
+### Big O: O(n) 
+### Explanation: looping over each index once
 
 ```python
 numbers = [1,2,3,4,5,6,7,8,9,10]
@@ -81,8 +81,8 @@ def print_array(array):
 ```
 
 ## Snippet 7 -
-### Big O:
-### Explanation:
+### Big O: O(n^2)
+### Explanation: Big O cheat sheet said that for this function
 
 ```python
 # this is insertion sort
@@ -97,8 +97,8 @@ def insertionSort(arr):
 ```
 
 ## Snippet 8 -
-### Big O:
-### Explanation:
+### Big O: O(n^2)
+### Explanation: Looping over two arrays, and index's
 
 ```python
 for i in range(len(my_list)):
